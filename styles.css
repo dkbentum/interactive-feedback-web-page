@@ -21,6 +21,7 @@ body {
 The floating feedback box itself
 ================================*/
 .card {
+    position: relative;
     background:#1b1f2a;
     padding:25px;
     border-radius:16px;
@@ -34,11 +35,9 @@ The floating feedback box itself
        ICON (small star-like dot)
     =============================== */
     .icon {
-      width: 12px;
-      height: 12px;
-      background: orange; /* matches the UI accent color */
-      border-radius: 50%; /* makes it a circle */
-      margin-bottom: 10px;
+      position: absolute; 
+      top: 6px;
+      left: 5px;
     }
 
 
@@ -108,5 +107,9 @@ Each rating button
 
 .submit_btn:hover{
     transform: scale(1.25);
+}
+
+.ratedreply{
+  color:orange;
 }
 

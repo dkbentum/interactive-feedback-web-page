@@ -42,16 +42,20 @@ document.querySelector(".submit_btn").addEventListener("click", () => {
 
   // Replace entire card content
   card.innerHTML = `
-    <div class="icon"></div>
+     <div  class="icon"> <img src="images/icon-star.svg"></div>
 
-    <h2>Thank you!</h2>
-
-    <p>
+    <img src="images/illustration-thank-you.svg">
+    
+    <div class="ratedReply" style="background-color:gray; border-radius:25px">
+    <p style= "color:orange; font-size:17px">
       You selected <strong>${selectedRating}</strong> out of 5.
     </p>
+    </div>
+
+    <h2>Thank You!</h2>
 
     <p>
-      We appreciate your feedback. It helps us improve 🚀
+      We appreciate you taking the time to give us a rating. If you ever need more support, don't hesitate to get in touch!
     </p>
   `;
 });
