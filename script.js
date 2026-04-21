@@ -46,7 +46,7 @@ document.querySelector(".submit_btn").addEventListener("click", () => {
 
     <img src="images/illustration-thank-you.svg">
     
-    <div class="ratedReply" style="background-color:gray; border-radius:25px">
+    <div class="ratedReply" style="background-color:hsl(216, 12%, 8%); border-radius:25px">
     <p style= "color:orange; font-size:17px">
       You selected <strong>${selectedRating}</strong> out of 5.
     </p>
